@@ -1,10 +1,11 @@
 # rpi-ssd
 
-Notera...
-* 3A adapter
+Notera kravlistan
+* 3A adapter krävs
 * PI4
 * SATA adapter i USB3
 
+Start
 
 1. Ladda ned Raspberry Pi OS Lite
 2. Flasha med Raspberry Pi Imager till SD
