@@ -11,7 +11,7 @@ Start
 2. Flasha med Raspberry Pi Imager till SD
 3. Lägg till en tom fil men namnet ```ssh``` i boot-partitionen
 4. Starta upp från SD
-5. logga in från terminal med ```ssh pi@<ip>```
+5. logga in från terminal med ```ssh pi@{ip-adress}```
 6. ```sudo raspi-config```
 7. Interfacing Options » SSH » Yes » Ok » Finish
 8. ```sudo nano /etc/default/rpi-eeprom-update```
@@ -37,4 +37,4 @@ Hämta HASSIO på PC/Mac
 19. ```haos_rpi4-64-6.X.img.xz``` för RPi4
 20. Flasha med Balena Etcher till SSD (partitioner bildas)
 21. Ta ut SD och sätt i SSD
-22. Bevaka  http://<ip>:8123
+22. Bevaka  http://{ip-adress}:8123
