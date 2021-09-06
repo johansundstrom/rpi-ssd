@@ -31,7 +31,7 @@ Sätt bootordning
 16. Advanced Options » Boot Order » USB Boot » Ok
 17. Finish » Reboot » Shut down
 
-Hämta HASSIO på PC/Mac
+Hämta HASSIO till PC/Mac flash till SSD
 
 18. https://github.com/home-assistant/operating-system/releases
 19. ```haos_rpi4-64-6.X.img.xz``` för RPi4
