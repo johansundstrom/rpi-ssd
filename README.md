@@ -5,7 +5,7 @@ Notera kravlistan
 * PI4
 * SATA adapter i USB3
 
-Start
+Starta med att installera som vanligt
 
 1. Ladda ned Raspberry Pi OS Lite
 2. Flasha med Raspberry Pi Imager till SD
