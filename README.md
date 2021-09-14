@@ -5,19 +5,22 @@ Notera kravlistan
 * PI4
 * SATA adapter i USB3
 
-Starta med att installera som vanligt
+Installera som vanligt
 
 1. Ladda ned Raspberry Pi OS Lite
 2. Flasha med Raspberry Pi Imager till SD
-3. Lägg till en tom fil men namnet ```ssh``` i boot-partitionen
-4. Starta upp från SD
-5. logga in från terminal med ```ssh pi@{ip-adress}```
-6. ```sudo raspi-config```
-7. Interfacing Options » SSH » Yes » Ok » Finish
-8. ```sudo nano /etc/default/rpi-eeprom-update```
-9. ```sudo apt update```
-10. ```sudo apt full-upgrade```
-11. ```sudo reboot```
+3. Lägg till en tom fil med namnet ```ssh``` i boot-partitionen
+4. Starta RPi upp från SD
+
+Uppdatera RPi
+
+6. logga in från terminal med ```ssh pi@{ip-adress}```
+7. ```sudo raspi-config```
+8. Interfacing Options » SSH » Yes » Ok » Finish
+9. ```sudo nano /etc/default/rpi-eeprom-update```
+10. ```sudo apt update```
+11. ```sudo apt full-upgrade```
+12. ```sudo reboot```
 
 Kontrollera uppdateringen
 
